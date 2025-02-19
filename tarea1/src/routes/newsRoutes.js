@@ -8,9 +8,6 @@ const router = express.Router();
 const NEWS_API_URL = 'https://newsapi.org/v2';
 const API_KEY = process.env.NEWS_API_KEY;
 
-if (!API_KEY) {
-  throw new Error('API Key no configurada. Asegúrate de definirla en el archivo .env');
-}
 
 router.get('/sources', async (req, res, next) => {
   try {
