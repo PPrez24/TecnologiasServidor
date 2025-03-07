@@ -12,6 +12,8 @@ API desarrollada en Node.js + Express para listar noticias desde NewsAPI.
 ## Instalación
 1. Clonar el repositorio.
 2. Ejecutar `npm install` para instalar dependencias.
+2. Ejecutar `npm install express axios dotenv` para instalar dependencias.
+2. Ejecutar `npm install --save-dev nodemon` para instalar dependencias.
 3. Crear un archivo `.env` con `NEWS_API_KEY=tu_api_key_aqui`.
 4. Ejecutar `npm run dev` para iniciar el servidor.
 
@@ -22,5 +24,5 @@ API desarrollada en Node.js + Express para listar noticias desde NewsAPI.
 
 ## Observaciones
 - Asegurarse de tener una API Key válida de [NewsAPI](https://newsapi.org/).
-- Invitar a `fsevilla` al repositorio en GitHub.
+- Invitar a `fsevilla` (profesor) al repositorio en GitHub.
 - Crear carpeta `tarea1` en la rama principal y colocar los archivos dentro.
