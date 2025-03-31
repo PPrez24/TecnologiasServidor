@@ -1,0 +1,17 @@
+<h1>Subir nueva imagen</h1>
+
+{{#if error}}
+    <p class="error">{{error}}</p>
+{{/if}}
+
+<form class="upload-form" action="/upload" method="POST" enctype="multipart/form-data">
+    <div>
+        <label for="image">Selecciona una imagen (JPG/PNG):</label>
+        <input type="file" id="image" name="image" accept="image/jpeg, image/png" required>
+    </div>
+    <div>
+        <button type="submit">Subir imagen</button>
+    </div>
+</form>
+
+<p><a href="/gallery">Ver galería de imágenes</a></p>
